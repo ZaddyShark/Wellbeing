@@ -1,0 +1,1251 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family:'roboto';
+    display: flex;
+    flex-direction: column; 
+    overflow-x: hidden;
+    font-size: larger;
+    font-family:  "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body li{
+    text-decoration-color: red;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    color: #fafafa;
+}
+
+
+.logo {
+    width: 35%; 
+    padding: 0 10px; 
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+ 
+.links {
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+    font-size: small;
+}
+.home{
+    background-color: #A5C343;
+    height: max-content;
+    padding: 2%;
+    display: flex;
+
+}
+.button {
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+    overflow:hidden;
+}
+
+
+
+
+a{
+    text-decoration: none;
+    border: #A5C343;
+
+    text-align: center;
+    color: #ffffff;
+}
+
+@keyframes slideshow {
+
+    5%{
+        background-image: url(Images/team.jpeg);
+    }
+    20%{
+        background-image: url(Images/background/yoga.jpeg);
+        
+    }
+    40%{
+        background-image: url(Images/Collateral/DSCF1972.JPG);
+    }
+
+    60%{
+        background-image: url(Images/background/apple.jpg);
+    }
+
+    80%{
+        background-image: url(Images/Wapple.png);
+    }
+
+    100%{
+        background-image: url(Images/background/book.jpeg);
+    }
+
+    
+}
+.home_slide{
+    animation: slideshow 10s infinite alternate linear  ;
+   background-size: cover;
+   background-repeat: no-repeat;
+   align-items: center;
+   justify-items: center;
+   width: 100%;
+   height: 700px;
+}
+
+
+@keyframes slide{
+    from{transform: translateX(0);
+
+    }
+
+    to{transform: translateX(-100%);
+
+    }
+}
+
+
+.partners{
+    padding: 3%;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    animation: slide 10s linear 1s infinite ;
+}
+
+.partners-wrapper {
+    display: flex;
+    animation: slide 20s linear 1s infinite ;
+    height: 150px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.mid{
+    color: #A5C343;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1%;
+}
+
+.image{
+background-image: url(Images/water.webp);
+width: 20%;
+background-size: cover;
+}
+
+h1{
+    font-size: larger;
+}
+p{
+    color: #fafafa;
+}
+
+.zikhona{
+    width: 30%;
+    height: max-content;
+    background-color: #A5C343;
+    color: black;
+    text-align: center;
+    padding: 1%;
+    font-size: small;
+
+}
+
+.zikhona p{
+    color: black;
+}
+
+.zikhona h1{
+    font-size: x-large;
+    margin-top: 0;
+    margin-bottom: 2%;
+}
+
+.title span{
+    font-size: xx-small;
+    font-weight: lighter;
+
+}
+
+.title h2{
+    font-size: small;
+    margin-top: 0;
+    margin-bottom: 2%;
+}
+.zikhona ul{
+    list-style-type:disc;
+     list-style-image: url(Images/Vectors/red\ circle.png);
+     text-align: left;
+}
+
+.title p{
+    font-weight: bold;
+    font-size: larger;
+}
+.points{
+    color: black;
+    padding: 1%;
+    height: max-content;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    background-color: gray;
+    border-radius: 5px;
+    padding-top: 4%;
+    font-size: small;
+}
+
+.picture{
+    width: 250px;
+
+}
+
+.center{
+    display: flex;
+    text-align: center;
+    width: 86%;
+}
+
+
+.who{
+    width: 49%;
+
+}
+
+.who p{
+    background-color: gray;
+    padding: 5%;
+    border-radius: 5px;
+    padding-bottom: 17%;
+    color: black;
+    font-size: small;
+}
+.why{
+    width: 50%;
+   
+}
+
+.why p{
+    background-color: gray;
+    padding: 3%;
+    border-radius: 5px;
+    color: #000;
+    font-size: small;
+}
+.midcenter{
+    display: flex;
+    padding: 1%;
+    justify-content: space-between;
+}
+
+.values{
+    width: 50%;
+    padding-right: 1%;
+    font-weight: bold;
+}
+
+.topcenter{
+    display: flex;
+    padding: 1%;
+    justify-content: space-between;
+}
+.mission{
+    width:48%;
+    
+
+    
+}
+.mission p{
+    color: black;
+    background-color: gray;
+    padding: 3%;
+    border-radius: 5px;
+    font-size: small;
+    padding-bottom: 11%;
+}
+
+.nutrition{
+    display: flex;
+    width: 100%;
+    padding: 1%;
+    color: white;
+    align-items: flex-start;
+    text-align: center;
+    height: auto;
+
+
+}
+
+.line{
+    background-image: url(Images/Vectors/line.png);
+    width: 2px;
+    height: 700px;
+}
+
+.nutrition h1{
+    background-color: #A5C343;
+    width: 80%;
+    color: #000;
+    border-radius: 5px;
+    text-align: center;
+    font-size: larger;
+    padding-top: 1%;
+    align-items: center;
+    justify-items:  center;
+    text-align: center;
+    padding: 2%;
+    
+
+ 
+}
+
+.clinic{
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    text-align: center;
+    display:grid;
+}
+
+.clinic ul{
+    list-style-type:disc;
+    list-style-image: url(Images/Vectors/red\ circle.png);
+    margin-top: 0;
+    
+}
+
+ul .consultation{
+    margin-top: 0;
+}
+
+.nutrition p{
+    color: #A5C343;
+    text-align: left;
+    font-size: 12pt;
+}
+.clinic{
+    align-items: center;
+    width: 30%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.nutrition ul li{
+    margin-top: 0;
+
+
+}
+.nutrition ul{
+    text-align: left;
+    font-size: small;
+    width: 90%;
+
+}
+.consultation{
+    color: #fafafa;
+    margin-top: 0;
+}
+
+.nutrition h3{
+    font-size: 12pt;
+    text-align: left;
+    width: 100%;
+}
+.wellness {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.wellness ul{
+        list-style-type:disc;
+        list-style-image: url(Images/Vectors/red\ circle.png);
+        text-align: left;
+}
+
+.masterclass{
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.masterclass ul{
+    list-style-type:disc;
+        list-style-image: url(Images/Vectors/red\ circle.png);
+        margin-top: 0;
+}
+.details{
+    text-align: center;
+    width: 100%;
+    padding-top: 5%;
+}
+
+.details h1{
+    color: #A5C343;
+}
+.display{
+    width: 100%;
+    display: flex;
+    height: 900px;
+    padding: 2%;
+}
+
+.podcast{
+    color: white;
+    height: 30%;
+    text-align: center;
+    align-items: baseline;
+    justify-content: center;
+    padding-top: 60px;
+}
+.storage{
+    display: inline;
+    justify-content: baseline;
+}
+
+.upcoming{
+    color: white;
+    height: 50%;
+    text-align: center;
+    align-items: center;
+    padding-right: 2%;
+}
+
+@keyframes show {
+    0%{ background-image: url(Images/WhatsApp\ Image\ 2024-08-06\ at\ 16.04.50.jpeg);}
+    10%{background-image: url(Images/WhatsApp\ Image\ 2024-08-06\ at\ 16.04.51.jpeg);}
+    20%{background-image: url(Images/WhatsApp\ Image\ 2024-08-06\ at\ 16.04.53.jpeg);}
+    30%{background-image: url(Images/WhatsApp\ Image\ 2024-08-06\ at\ 16.04.52.jpeg);}
+    40%{background-image: url(Images/WhatsApp\ Image\ 2024-08-06\ at\ 16.04.53\ \(1\).jpeg);}
+    50%{background-image: url(Images/WhatsApp\ Image\ 2024-08-06\ at\ 16.04.53\ \(2\).jpeg);}
+    60%{background-image: url(Images/WhatsApp\ Image\ 2024-08-06\ at\ 16.04.53\ \(3\).jpeg);}
+    70%{background-image: url(Images/WhatsApp\ Image\ 2024-08-06\ at\ 16.04.56.jpeg);}
+    80%{background-image: url(Images/WhatsApp\ Image\ 2024-08-06\ at\ 16.08.12\ \(2\).jpeg);}
+    90%{background-image: url(Images/WhatsApp\ Image\ 2024-08-06\ at\ 16.04.55.jpeg);}
+}
+.pictures{
+    width: 70%;
+    height: 700px;
+    animation: show 60s infinite linear;
+    background-size: cover;
+}
+.upcoming h1{
+    color:white;
+}
+.elements{
+    width: 25%;
+    display: inline;
+}
+.training{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 1%;
+    font-size: small;
+}
+
+.training ul{
+    list-style-type:disc;
+    list-style-image: url(Images/Vectors/red\ circle.png);
+    text-align: left;
+}
+.left{
+    width: 30%;
+    color: #A5C343;
+    background-size: contain;
+    text-align: center;
+}
+
+.right{
+    width: 70%;
+    height: 900px;
+    display: inline;
+    text-align: center;
+    color: #A5C343;
+}
+
+.righttop{
+    width: 100%;
+    height: max-content;
+
+}
+.rightbottom{
+    width: 100%;
+    display: grid;
+}
+
+.rightbottom p{
+    color: white;
+}
+.heading{
+    width: 100%;
+    display: block;
+}
+
+p strong{
+    color: red;
+}
+
+.rightbottom h1{
+    color:red;
+    font-size: larger;
+  
+}
+
+.contact{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    background-color: #000;
+}
+.lilpicture{
+    background-image: url(Images/WhatsApp\ Image\ 2024-08-06\ at\ 16.04.57\ \(1\).jpeg);
+    width: 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.lilpicture img{
+    height: 338.234px;
+}
+
+.info{ 
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    display: flex;
+    height: max-content ;
+    padding: 2%;
+    text-align: center;
+    font-size: large;
+}
+
+input, textarea{
+    padding-bottom: 5px;
+    width: 60%;
+}
+.submit{
+    margin-top: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid white;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+    overflow:hidden;
+    width: 60%;
+}
+.info a{
+    color: black;
+}
+.bookings{
+    background-color: #A5C343;
+    color: #000;
+    width: 30%;
+    align-items: center;
+}
+
+.selections{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    margin-left: 25%;
+}
+
+.numbers{
+    background-color: #fafafa;
+    color: #000;
+    width: 30%;
+}
+
+
+.numbers h1{
+    color: red;
+    
+}
+
+.numbers h3{
+    margin-bottom: 2px;
+}
+
+.socials{
+    margin: 12px;
+}
+.socials a{
+    margin: 12px ;
+}
+
+
+@media (max-width: 768px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        display: flex;
+        flex-direction: column; 
+        overflow-x: hidden;
+        font-size: larger;
+        font-family:  "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    body li{
+        text-decoration-color: red;
+    }
+    
+    .head {
+        display: block;
+        align-items: center;
+        padding: 10px;
+        color: #fafafa;
+
+    }
+    
+    
+    .logo {
+        width: 100%; 
+        padding: 0 10px; 
+    }
+    
+    .logo img {
+        width: 100%;
+        height: auto;
+    }
+    
+     
+    .links {
+        display: flex;
+        width: 90%;
+        font-size: xx-small;
+        align-items: center;
+        padding: 5%;
+        text-align: center;
+    }
+    .home{
+        background-color: #A5C343;
+        height: max-content;
+        padding: 2%;
+        display: flex;
+    
+    }
+    .button {
+        padding: 5px;
+        text-decoration: none;
+        color: white;
+        border: 1px solid white;
+        border-radius: 20px;
+        transition: background-color 0.3s;
+        overflow:hidden;
+    }
+    
+    
+    
+    
+    a{
+        text-decoration: none;
+        border: #A5C343;
+    
+        text-align: center;
+        color: #ffffff;
+    }
+    
+    @keyframes slideshow {
+    
+        5%{
+            background-image: url(Images/team.jpeg);
+        }
+        20%{
+            background-image: url(Images/background/yoga.jpeg);
+            
+        }
+        40%{
+            background-image: url(Images/Collateral/DSCF1972.JPG);
+        }
+    
+        60%{
+            background-image: url(Images/background/apple.jpg);
+        }
+    
+        80%{
+            background-image: url(Images/Wapple.png);
+        }
+    
+        100%{
+            background-image: url(Images/background/book.jpeg);
+        }
+    
+        
+    }
+    .home_slide{
+        animation: slideshow 10s infinite alternate linear  ;
+       background-size: contain;
+       background-repeat: no-repeat;
+       align-items: center;
+       justify-items: center;
+       width: 100%;
+       height: 700px;
+    }
+    
+    
+    @keyframes slide{
+        from{transform: translateX(0);
+    
+        }
+    
+        to{transform: translateX(-100%);
+    
+        }
+    }
+    
+    
+    .partners{
+        padding: 3%;
+        height: 100px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        animation: slide 10s linear 1s infinite ;
+
+        margin-top: 5%;
+    }
+    
+    .partners-wrapper {
+        display: flex;
+        animation: slide 20s linear 1s infinite ;
+        height: 150px;
+        justify-content: space-between;
+        padding: 20px;
+        overflow:initial;
+    }
+    
+    .mid{
+        color: #A5C343;
+        display: grid;
+        justify-content: space-evenly;
+        padding: 1%;
+    }
+    
+    @keyframes scroll {
+        from{transform:translateY(-100) ;}
+        to{transform: translateY(100);}
+    }
+    .image{
+    background-image: url(Images/water.webp);
+    width: 100%;
+    background-size: cover;
+    height: 400px;
+    animation: scroll 5s infinite ;
+    }
+    
+    h1{
+        font-size: larger;
+    }
+    p{
+        color: #fafafa;
+    }
+    
+    .zikhona{
+        width: 100%;
+        height: auto;
+        background-color: #A5C343;
+        color: black;
+        text-align: center;
+        padding: 1%;
+        font-size: small;
+    
+    }
+    
+    .zikhona p{
+        color: black;
+    }
+    
+    .zikhona h1{
+        font-size: x-large;
+        margin-top: 0;
+        margin-bottom: 2%;
+    }
+    
+    .title span{
+        font-size: xx-small;
+        font-weight: lighter;
+    
+    }
+    
+    .title h2{
+        font-size: small;
+        margin-top: 0;
+        margin-bottom: 2%;
+    }
+    .zikhona ul{
+        list-style-type:disc;
+         list-style-image: url(Images/Vectors/red\ circle.png);
+         text-align: left;
+    }
+    
+    .title p{
+        font-weight: bold;
+        font-size: larger;
+    }
+    .points{
+        color: black;
+        padding: 1%;
+        height: max-content;
+        text-decoration: none;
+        text-align: center;
+        width: 100%;
+        background-color: gray;
+        border-radius: 5px;
+        padding-top: 4%;
+        font-size: small;
+    }
+    
+    .picture{
+        width: 100%;
+        height: 30%;
+    
+    }
+    
+    .center{
+        display: grid;
+        text-align: center;
+        width: 100%;
+    }
+    
+    
+    .who{
+        width: 100%;
+    
+    }
+    
+    .who p{
+        background-color: gray;
+        padding: 5%;
+        border-radius: 5px;
+        padding-bottom: 17%;
+        color: black;
+        font-size: small;
+    }
+    .why{
+        width: 100%;
+       
+    }
+    
+    .why p{
+        background-color: gray;
+        padding: 3%;
+        border-radius: 5px;
+        color: #000;
+        font-size: small;
+    }
+    .midcenter{
+        display: grid;
+        padding: 1%;
+        justify-content: space-between;
+    }
+    
+    .values{
+        width: 100%;
+        font-weight: bold;
+    }
+    
+    .topcenter{
+        display: grid;
+        padding: 1%;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .mission{
+        width:100%;
+        
+    
+        
+    }
+    .mission p{
+        color: black;
+        background-color: gray;
+        padding: 3%;
+        border-radius: 5px;
+        font-size: small;
+        padding-bottom: 11%;
+    }
+    
+    .nutrition{
+        display: grid;
+        width: 90%;
+        padding: 1%;
+        color: white;
+        align-items: flex-start;
+        text-align: center;
+        height: auto;
+    
+    
+    }
+    
+    .line{
+        background-image: url(Images/Vectors/line.png);
+        width: 10px;
+        height: 100%;
+        -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    }
+    
+    .nutrition h1{
+        background-color: #A5C343;
+        width: 80%;
+        color: #000;
+        border-radius: 5px;
+        text-align: center;
+        font-size: larger;
+        padding-top: 1%;
+        align-items: center;
+        justify-items:  center;
+        text-align: center;
+        padding: 2%;
+        font-weight: bolder;
+    }
+    
+    .clinic{
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        padding: 1%;
+        text-align: center;
+        display:grid;
+    }
+    
+    .clinic ul{
+        list-style-type:disc;
+        list-style-image: url(Images/Vectors/red\ circle.png);
+        margin-top: 0;
+        
+    }
+    
+    ul .consultation{
+        margin-top: 0;
+    }
+    
+    .nutrition p{
+        color: #A5C343;
+        text-align: left;
+        font-size: 12pt;
+    }
+    .clinic{
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    
+    
+    }
+    
+    .nutrition ul li{
+        margin-top: 0;
+    
+    
+    }
+    .nutrition ul{
+        text-align: left;
+        font-size: small;
+        width: 90%;
+    
+    }
+    .consultation{
+        color: #fafafa;
+        margin-top: 0;
+    }
+    
+    .nutrition h3{
+        font-size: 12pt;
+        text-align: left;
+        width: 100%;
+    }
+    .wellness {
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 1%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    
+    .wellness ul{
+            list-style-type:disc;
+            list-style-image: url(Images/Vectors/red\ circle.png);
+            text-align: left;
+    }
+    
+    .masterclass{
+        height: 100%;
+        align-items: center;
+        text-align: center;
+        padding: 1%;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+    
+    .masterclass ul{
+        list-style-type:disc;
+            list-style-image: url(Images/Vectors/red\ circle.png);
+            margin-top: 0;
+    }
+    .details{
+        text-align: center;
+        width: 99%;
+        padding-top: 5%;
+        align-items: center;
+    }
+    
+    .details h1{
+        color: #A5C343;
+    }
+    .display{
+        width: 100%;
+        display: flex;
+        height: 900px;
+        padding: 2%;
+    }
+    
+    .podcast{
+        color: white;
+        height: 30%;
+        text-align: center;
+        align-items: baseline;
+        justify-content: center;
+        padding-top: 60px;
+    }
+    .storage{
+        display: inline;
+        justify-content: baseline;
+    }
+    
+    .upcoming{
+        color: white;
+        height: 50%;
+        text-align: center;
+        align-items: center;
+        padding-right: 2%;
+    }
+    
+    @keyframes show {
+        0%{ background-image: url(Images/WhatsApp\ Image\ 2024-08-06\ at\ 16.04.50.jpeg);}
+        10%{background-image: url(Images/WhatsApp\ Image\ 2024-08-06\ at\ 16.04.51.jpeg);}
+        20%{background-image: url(Images/WhatsApp\ Image\ 2024-08-06\ at\ 16.04.53.jpeg);}
+        30%{background-image: url(Images/WhatsApp\ Image\ 2024-08-06\ at\ 16.04.52.jpeg);}
+        40%{background-image: url(Images/WhatsApp\ Image\ 2024-08-06\ at\ 16.04.53\ \(1\).jpeg);}
+        50%{background-image: url(Images/WhatsApp\ Image\ 2024-08-06\ at\ 16.04.53\ \(2\).jpeg);}
+        60%{background-image: url(Images/WhatsApp\ Image\ 2024-08-06\ at\ 16.04.53\ \(3\).jpeg);}
+        70%{background-image: url(Images/WhatsApp\ Image\ 2024-08-06\ at\ 16.04.56.jpeg);}
+        80%{background-image: url(Images/WhatsApp\ Image\ 2024-08-06\ at\ 16.08.12\ \(2\).jpeg);}
+        90%{background-image: url(Images/WhatsApp\ Image\ 2024-08-06\ at\ 16.04.55.jpeg);}
+    }
+    .pictures{
+        width: 70%;
+        height: 700px;
+        animation: show 60s infinite linear;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .upcoming h1{
+        color:white;
+    }
+    .elements{
+        width: 100%;
+        display: grid;
+    }
+    .training{
+        display: flex;
+        width: 100%;
+        height: auto;
+        padding: 1%;
+        font-size: small;
+    }
+    
+    .training ul{
+        list-style-type:disc;
+        list-style-image: url(Images/Vectors/red\ circle.png);
+        text-align: left;
+    }
+    .left{
+        width: 100%;
+        color: #A5C343;
+        background-size: contain;
+        text-align: center;
+    }
+    
+  .display{
+    display: grid;
+    justify-content: center;
+  }
+
+  .pictures{
+        width: 100%;
+  }
+    .right{
+        width: 100%;
+        height: auto;
+        display: inline;
+        text-align: center;
+        color: #A5C343;
+    }
+    
+    .righttop{
+        width: 100%;
+        height: max-content;
+    
+    }
+    .rightbottom{
+        width: 100%;
+        display: grid;
+    }
+    
+    .rightbottom p{
+        color: white;
+    }
+    .heading{
+        width: 100%;
+        display: block;
+    }
+    
+    p strong{
+        color: red;
+    }
+    
+    .rightbottom h1{
+        color:red;
+        font-size: larger;
+      
+    }
+    .contact{
+        display: grid;
+        width: 100%;
+        height: auto;
+        background-color: #000;
+    }
+    .lilpicture{
+        background-image: url(Images/WhatsApp\ Image\ 2024-08-06\ at\ 16.04.57\ \(1\).jpeg);
+        width: 80%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .lilpicture img{
+        height: 338.234px;
+    }
+    
+    .info{ 
+        width: 80%;
+        display: grid;
+        height: max-content ;
+        margin: 10%;
+        text-align: center;
+        font-size: large;
+    }
+    
+    input{
+        padding-bottom: 5px;
+        width: 60%;
+    }
+    .submit{
+        margin-top: 5px;
+        padding: 5px;
+        text-decoration: none;
+        color: black;
+        border: 1px solid white;
+        border-radius: 20px;
+        transition: background-color 0.3s;
+        overflow:hidden;
+        width: 60%;
+    }
+    .info a{
+        color: black;
+    }
+    .bookings{
+        background-color: #A5C343;
+        color: #000;
+        width: 100%;
+        align-items: center;
+        padding-bottom: 5%;
+    }
+    
+    .selections{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-left: 25%;
+    }
+    
+    .numbers{
+        background-color: #fafafa;
+        color: #000;
+        width: 100%;
+        display: grid;
+        justify-items: center;
+    }
+    .numbers h1{
+        color: red;
+        width: 80%;
+    }
+
+    .divider{
+        background-color: #000 ;
+        width: 80%;
+        height: 5px;
+    }
+    
+    .numbers h3{
+        margin-bottom: 2px;
+    }
+    
+    .socials{
+        margin: 12px;
+    }
+    .socials a{
+        margin: 12px ;
+    }
+    
+}
+
+
